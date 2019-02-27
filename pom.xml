@@ -41,6 +41,25 @@
     </dependencies>
 
     <build>
+
+        <directory>output</directory>
+        <outputDirectory>output/classes</outputDirectory>
+        <finalName>${artifactId}-${version}</finalName>
+        <testOutputDirectory>output/test-classes</testOutputDirectory>
+        <sourceDirectory>lib/java</sourceDirectory>
+        <scriptSourceDirectory>bin</scriptSourceDirectory>
+        <testSourceDirectory>test/java</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>data</directory>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>test/fixture</directory>
+            </testResource>
+        </testResources>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

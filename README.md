@@ -1,10 +1,10 @@
-# iflix Coding Assignment
+# ***** Coding Assignment
 
-Welcome to the iflix Coding Assignment! We can't wait to see what you come up with!
+Welcome to the ***** Coding Assignment! We can't wait to see what you come up with!
 
 **Please read through this entire file before starting the test.**
 
-At iflix, we give our users free access through Partner networks - mobile or broadband, and we call these Offers. It's up to the partner how many months of free sweet sweet iflix each person gets. This assignment is focussed around solving a simplified version of that logic.
+At *****, we give our users free access through Partner networks - mobile or broadband, and we call these Offers. It's up to the partner how many months of free sweet sweet ***** each person gets. This assignment is focussed around solving a simplified version of that logic.
 
 ## Inputs
 
@@ -20,7 +20,7 @@ The format and rules surrounding the Partner files are described below under **O
 
 Your program will need to load these inputs, process them according to the rules under **Offers** below, and output a single file as `./output/result.json`, which contains the output from the analysis results.
 
-The output should be focussed around each account. For each account, we want to know the number of whole days (rounded down) the user has had free iflix from each Partner.
+The output should be focussed around each account. For each account, we want to know the number of whole days (rounded down) the user has had free ***** from each Partner.
 
 The format of the JSON output file should match this structure:
 
@@ -40,7 +40,7 @@ The format of the JSON output file should match this structure:
 
 ## Implementation
 
-We mostly NodeJS at iflix, but we've all had history with Java,
+We mostly NodeJS at *****, but we've all had history with Java,
 Python, C/++/#, Elixir, and Ruby. Choose one that you're most comfortable with.
 
 You should write your code as if it's going straight to Production, so it needs to be production ready, and maintainable for other developers. To that end, heres what we care about when we write code, and we want you to care about these things too, so we expect the following to be demonstrated in your code base:
@@ -56,7 +56,7 @@ You should write your code as if it's going straight to Production, so it needs 
 
 ## Testing
 
-At iflix, we believe tests are better than documentation. Your tests are what describes your solution, so Unit and Integration tests are a must. We've even given you a `test` path for you to put your tests inside. We want you to test the happy path, edge cases and failure scenarios. If your test framework uses a different path, feel free to rename the one we've provided.
+At *****, we believe tests are better than documentation. Your tests are what describes your solution, so Unit and Integration tests are a must. We've even given you a `test` path for you to put your tests inside. We want you to test the happy path, edge cases and failure scenarios. If your test framework uses a different path, feel free to rename the one we've provided.
 
 Additionally, you should include a System test to verify your solution in its entirety. We've provided a test fixture at `test/fixture/expected_output.json` for you to write a test around, which you should use.
 
@@ -77,7 +77,7 @@ Each `GRANT` contains:
 
 * The users phone number
 * The date (ISO8601 format) at which the GRANT starts
-* The period of free iflix for that user, in months.
+* The period of free ***** for that user, in months.
 
 Rules:
 
@@ -128,7 +128,7 @@ John gets 2 months from Partner A, and Partner B is ignored.
 Partner A issues a GRANT to John for 4 months.
 Partner A issues a GRANT to John for 6 months, 3 months later.
 
-John has 10 months free iflix from Partner A.
+John has 10 months free ***** from Partner A.
 ```
 
 ## Submission
@@ -143,7 +143,7 @@ Similarly, your solution should update the `bin/test` script to install all depe
 
 Take some time to describe your submission's approach, and any platform requirements (i.e. Oracle Java 8 etc) which cannot be automatically installed via the `bin/` scripts. Put this into a `SUBMISSION.md` file in the root of your project.
 
-When you're ready, please zip the entire project folder, including the `.git` folder and submit it via email to `hannah@iflix.com`. Please ensure the zip file is your name so we know who it belongs to!
+When you're ready, please zip the entire project folder, including the `.git` folder and submit it via email to `hannah@*****.com`. Please ensure the zip file is your name so we know who it belongs to!
 
 **Best of luck**
 
